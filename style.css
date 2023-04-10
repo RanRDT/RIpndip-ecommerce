@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Sedgwick+Ave+Display&display=swap');
+
+* {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    color: #242524;
+    text-decoration: none;
+}
+
+header {
+    position: sticky;
+    padding: 30px 10%;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.login {
+    display: flex;
+    float: right;
+    align-items: center;
+}
+
+.logo {
+    float: left;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    flex: 1;
+}
+
+.right-header {
+    display: flex;
+}
+
+a {
+    transition: all 0.3;
+}
+
+a:hover {
+    color: #0088a9;
+}
+
+.hero {
+    width: 100%;
+    height: fit-content;
+}
+
+span {
+    display: block;
+    height: 2vh;
+}
+
+nav-section {
+    display: flex;
+    position: sticky;
+    background-color: #4c6e4c;
+    height: 5vh;
+    justify-content: space-around;
+    border: #242524 solid;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+section {
+    display: flex;
+    height: 40vh;
+    justify-content: space-around;
+
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    min-width: 30vw;
+    margin: 3%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item-img {
+    height: 60%;
+    max-height: fit-content;
+    max-width: fit-content;
+}
+
+.under-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-item {
+    font-family: 'Sedgwick Ave Display';
+    font-size: xx-large;
+}
+
+.purchase-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+.purchase-button {
+    color: #ededed;
+    background-color: rgb(18, 173, 18);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20%;
+    margin-right: 20%;
+}
+.price{
+    display: flex;
+}
