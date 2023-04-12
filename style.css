@@ -11,6 +11,8 @@
 header {
     position: sticky;
     padding: 30px 10%;
+    background-color: rgba(90, 89, 89, 0.696);
+    margin-bottom: 3%;
 }
 
 .header-top {
@@ -47,7 +49,7 @@ a:hover {
 }
 
 .hero {
-    width: 100%;
+    width: 100%; 
     height: fit-content;
 }
 
@@ -72,6 +74,7 @@ section {
     display: flex;
     height: 40vh;
     justify-content: space-around;
+    min-width: 100%;
 
 }
 
@@ -84,10 +87,10 @@ section {
     display: flex;
     flex-direction: column;
     height: 40vh;
-    min-width: 30vw;
-    margin: 3%;
+    width: 33%;
     align-items: center;
     flex-wrap: wrap;
+    float: left;
 }
 
 .item-img {
@@ -126,4 +129,24 @@ section {
 }
 .price{
     display: flex;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-family:'Sedgwick Ave Display' ;
+    font-size: xx-large;
+}
+footer{
+    background-color: rgba(90, 89, 89, 0.696) ;
+
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+}
+.social-logo{
+width: 10vw;
+display: flex;
+justify-content: space-between;
+margin: 3%;
 }
