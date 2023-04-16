@@ -54,20 +54,24 @@ header {
     font-size: 40px;
     flex: 1;
 }
-.input-search{
+
+.input-search {
     display: none;
     width: 15vw;
-    
-    }
-    .search-bar:hover .input-search{
-        display: block;
-    }
-    .search-bar {
-        display: flex;
-        align-items: center;
-        flex-direction: column-reverse;
-        margin-right:8% ;
-    }
+
+}
+
+.search-bar:hover .input-search {
+    display: block;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    margin-right: 8%;
+}
+
 .product {
     display: flex;
     justify-content: center;
@@ -76,13 +80,15 @@ header {
     margin-left: 20%;
     margin-right: 20%;
 }
-.top-div{
+
+.top-div {
     display: flex;
     justify-content: center;
 }
+
 .product-img {
     display: flex;
-   /* width: 30vw;*/
+    /* width: 30vw;*/
     height: 35vh;
     margin-top: 0;
     justify-content: center;
@@ -90,12 +96,13 @@ header {
 }
 
 .all-img {
-   /* display: inline-flex;*/
-   display: none;
+    /* display: inline-flex;*/
+    display: none;
     justify-content: space-around;
     margin-top: 5%;
     margin-bottom: 5%;
-    height: 15%; }
+    height: 15%;
+}
 
 
 .sub-img {
@@ -104,6 +111,7 @@ header {
     justify-content: center;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+
 /*#Aa:hover  a{
     display: block;} */
 
@@ -156,7 +164,8 @@ h3 {
     border-radius: 10px;
     padding: 3%;
 }
-.button-add:hover{
+
+.button-add:hover {
     zoom: 1.2;
 }
 
@@ -175,9 +184,10 @@ h3 {
 
 .img-4-u {
     width: 25vw;
-   
+
 }
-.home{
+
+.home {
     margin-left: 30%;
     margin-right: 30%;
     margin-top: 10%;
@@ -187,23 +197,35 @@ h3 {
     transform: translate3d(0, 0, 0);
     perspective: 1000px;
 }
-.home:hover{
-    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97)
+
+.home:hover {
+    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97)
 }
+
 @keyframes shake {
-    10%, 90% {
-      transform: translate3d(-1px, 0, 0);
+
+    10%,
+    90% {
+        transform: translate3d(-1px, 0, 0);
     }
-    20%, 80% {
-      transform: translate3d(2px, 0, 0);
+
+    20%,
+    80% {
+        transform: translate3d(2px, 0, 0);
     }
-    30%, 50%, 70% {
-      transform: translate3d(-4px, 0, 0);
+
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-4px, 0, 0);
     }
-    40%, 60% {
-      transform: translate3d(4px, 0, 0);
+
+    40%,
+    60% {
+        transform: translate3d(4px, 0, 0);
     }
-  }
+}
+
 h2 {
     display: flex;
     justify-content: space-around;

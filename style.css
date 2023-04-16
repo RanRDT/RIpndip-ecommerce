@@ -52,9 +52,11 @@ header {
     flex: 1;
 
 }
-.logo:hover{
-    zoom:1.2 ;
+
+.logo:hover {
+    zoom: 1.2;
 }
+
 .right-header {
     display: flex;
 }
@@ -74,16 +76,18 @@ a:hover {
     z-index: 1;
 
 }
-.video-text{
+
+.video-text {
     position: absolute;
     color: rgb(0, 0, 0);
     top: 25%;
     left: 50%;
     font-family: 'Sedgwick Ave Display';
     font-size: xx-large;
-    transform:translate(-50%, -50%) ;
+    transform: translate(-50%, -50%);
     z-index: 2;
 }
+
 span {
     display: block;
     height: 2vh;
@@ -100,29 +104,32 @@ nav-section {
     align-content: center;
     margin-left: 2%;
     margin-right: 2%;
-    
+
 }
 
- section{
+section {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 
 }
-.input-search{
-display: none;
-width: 15vw;
+
+.input-search {
+    display: none;
+    width: 15vw;
 
 }
-.search-bar:hover .input-search{
+
+.search-bar:hover .input-search {
     display: block;
 }
+
 .search-bar {
     display: flex;
     align-items: center;
     flex-direction: column-reverse;
-    margin-right:8% ;
+    margin-right: 8%;
 }
 
 
