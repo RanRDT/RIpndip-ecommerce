@@ -1,18 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Sedgwick+Ave+Display&display=swap');
 
+
+
 * {
     font-family: 'Montserrat';
     font-weight: 500;
-    font-size: 16px;
+    font-size: medium;
     color: #242524;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
+
 header {
-    position: sticky;
-    padding: 30px 10%;
+    /* padding: 30px 10%; */
     background-color: rgba(90, 89, 89, 0.696);
     margin-bottom: 3%;
+    position: fixed;
+    width: 100%;
+    height: 16vh;
+    top: 0;
+    left: 0;
+    right: 0;
+
 }
 
 .header-top {
@@ -20,6 +30,12 @@ header {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 2%;
+    margin-right: 2%;
+}
+
+.main-content {
+    margin-top: 16vh;
+    width: 100%;
 }
 
 .login {
@@ -34,8 +50,11 @@ header {
     align-items: center;
     font-size: 40px;
     flex: 1;
-}
 
+}
+.logo:hover{
+    zoom:1.2 ;
+}
 .right-header {
     display: flex;
 }
@@ -49,10 +68,22 @@ a:hover {
 }
 
 .hero {
-    width: 100%; 
+    width: 100%;
     height: fit-content;
-}
+    position: relative;
+    z-index: 1;
 
+}
+.video-text{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    top: 25%;
+    left: 50%;
+    font-family: 'Sedgwick Ave Display';
+    font-size: xx-large;
+    transform:translate(-50%, -50%) ;
+    z-index: 2;
+}
 span {
     display: block;
     height: 2vh;
@@ -60,7 +91,6 @@ span {
 
 nav-section {
     display: flex;
-    position: sticky;
     background-color: #4c6e4c;
     height: 5vh;
     justify-content: space-around;
@@ -68,28 +98,39 @@ nav-section {
     border-radius: 10px;
     flex-wrap: wrap;
     align-content: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    
 }
 
-section {
+ section{
+    width: 100%;
     display: flex;
-    height: 40vh;
+    flex-wrap: wrap;
     justify-content: space-around;
-    min-width: 100%;
 
 }
+.input-search{
+display: none;
+width: 15vw;
 
-.search-bar{
+}
+.search-bar:hover .input-search{
+    display: block;
+}
+.search-bar {
     display: flex;
     align-items: center;
+    flex-direction: column-reverse;
+    margin-right:8% ;
 }
+
 
 .item {
     display: flex;
     flex-direction: column;
     height: 40vh;
-    width: 33%;
     align-items: center;
-    flex-wrap: wrap;
     float: left;
 }
 
@@ -124,29 +165,44 @@ section {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-radius: 20%;
+    border-radius: 10px;
     margin-right: 20%;
+    padding: 3%;
 }
-.price{
+
+.price {
     display: flex;
 }
-h2{
+
+h2 {
     display: flex;
     justify-content: center;
-    font-family:'Sedgwick Ave Display' ;
+    font-family: 'Sedgwick Ave Display';
     font-size: xx-large;
+    padding: 3%;
 }
-footer{
-    background-color: rgba(90, 89, 89, 0.696) ;
+
+footer {
+    background-color: rgba(90, 89, 89, 0.696);
 
 }
-.social-links{
+
+.social-links {
     display: flex;
     justify-content: center;
+    margin-bottom: 3%;
 }
-.social-logo{
-width: 10vw;
-display: flex;
-justify-content: space-between;
-margin: 3%;
+
+.social-logo {
+    width: auto;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2px;
+}
+
+.nav-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
