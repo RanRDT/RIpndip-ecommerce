@@ -61,10 +61,6 @@ header {
     display: flex;
 }
 
-a {
-    transition: all 0.3;
-}
-
 a:hover {
     color: #0088a9;
 }
@@ -104,7 +100,43 @@ nav-section {
     align-content: center;
     margin-left: 2%;
     margin-right: 2%;
+}
 
+.nav--button {
+    position: relative;
+}
+.nav--button:hover{
+    color: #242524;
+}
+.nav--button:hover::after,
+.nav--button:hover::before {
+    color: #242524;
+    opacity: 1;
+    width: 100%;
+    background-image: url();
+
+}
+
+.nav--button::after,
+.nav--button::before {
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 2px;
+    content: "";
+    background: black;
+    transition: all 0.3s;
+
+}
+
+.nav--button::before {
+    top: 0;
+    left: 0;
+}
+
+.nav--button::after {
+    bottom: 0;
+    right: 0;
 }
 
 section {
